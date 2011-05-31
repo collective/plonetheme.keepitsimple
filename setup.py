@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '0.1.0'
 
 setup(name='plonetheme.keepitsimple',
       version=version,
-      description="An installable theme for Plone 3",
+      description="An installable Diazo theme for Plone 4.1",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
