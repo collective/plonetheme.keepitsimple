@@ -5,4 +5,30 @@
 
     <theme href="index.html" />
 
+<!-- XXX Not all of these may work, this is a cut/paste job. Will fix later. -->
+
+    <replace content="/html/head/title" theme="/html/head/title" />
+
+    <notheme if-path="presentation_view"/>
+    <notheme if-path="source_editor.htm"/>
+    <notheme if-path="ploneimage.htm"/>
+    <notheme if-path="anchor.htm"/>
+    <notheme if-path="table.htm"/>
+    <notheme if-path="attributes.htm"/>
+
+    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="main"]' />
+    <copy content='//*[@id="portal-column-one"]' theme='//*[@id="col1"]' />
+    <copy content='//*[@id="portal-column-two"]' theme='//*[@id="col2"]' />
+    <copy content='//*[@id="portal-colophon"]' theme='//*[@id="footer-outer"]' />
+    <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer-bottom"]' />
+    <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
+    <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo-text"]' />
+    <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="quick-search"]' />
+
+    <drop theme='//*[@id="rss"]' />
+
+    <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer-outer"]' />
+    <append content='//*[@id="portal-personaltools"]' theme='//*[@id="footer-outer"]' />
+
 </rules>
+
