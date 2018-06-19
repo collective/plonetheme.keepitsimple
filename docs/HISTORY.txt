@@ -4,6 +4,8 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Added a simple Diazo theme package (Zip file) [macagua]
+
 - Added manifest file for diazo theme [macagua]
 
 - Added improvements about README file [macagua]
